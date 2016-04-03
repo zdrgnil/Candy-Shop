@@ -1,0 +1,131 @@
+table{
+	border-collapse:collapse;
+}
+hr{
+	margin-top:4px;
+	margin-bottom:4px;	
+}
+.idv_list{
+	clear:both;
+	overflow:auto; 
+	padding: 5px;
+	background-color:#fafaff;
+	border:0px solid black;	
+	margin-left:5px;	
+}
+
+.idv_list .title1{
+	float:right;
+	width:100px;
+	text-align:center;
+	border:0px solid black;	
+}
+
+.idv_list .title2{
+	float:right;
+	width:100px;
+	text-align:center;
+	border:0px solid black;	
+	margin-right:10px
+}
+
+.idv_list .checkout{
+	float:right;
+	width:100px;
+	text-align:center;
+	border:0px solid black;	
+}
+
+.idv_list .price{
+	float:right;
+	width:100px;
+	text-align:center;
+	border:0px solid black;	
+	margin-right:10px
+}
+
+.idv_list:hover{
+	#box-shadow: 0 1px 3px #c0c0c0;
+}
+.idv_image{
+	width:150px;
+	height:120px;
+	float:left;
+#	border:1px solid black;
+}
+
+.idv_name_descp{
+	float:left;
+	height:120px;
+	width:500px;
+	border:0px solid black;
+	margin-left:10px;
+}
+.idv_name_descp font{
+	font-size:20px;
+}
+
+.idv_price{
+	float:right;
+	height:100px;
+	width:100px;
+	border:0px solid black;
+	padding-top:17px;
+	margin-left:10px;	
+	text-align:center;
+	font-size:23px;
+	color:red;
+}
+
+.idv_quantity{
+	float:right;
+	height:110px;
+	width:100px;
+	padding-top:0px;
+	border:0px solid black;
+	margin-left:10px;
+	text-align:center;
+}
+
+.idv_quantity input{
+	text-align:center;
+	width: 50px;
+	margin-bottom:10px;
+}
+
+.idv_quantity .disp_msg{
+	margin-top:-7;
+	text-align:center;
+	color:green;
+	display:none;
+}
+
+
+.idv_quantity .btn{
+	float:none;
+	margin-bottom:10px;
+}
+
+.form_container{
+	font-family: verdana,helvetica,arial,sans-serif;
+	height:auto;
+	#width:330px;
+	border:0px solid;
+}
+
+.text-input-style{
+	margin: 5px;
+	border: 1px solid #CCC;
+	border-radius: 4px;
+	padding: 5px;
+	padding-left: 10px;
+	height: auto;
+	width: 240px;
+	font-size: 16px;
+	font-family: verdana,helvetica,arial,sans-serif;	
+}
+
+.form_error{
+	font-size: 12px;
+	color:red;
+}
